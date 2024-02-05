@@ -19,5 +19,8 @@ DEVICE_PATH := device/samsung/c2q
 # Inherit from sm8250-common
 include device/samsung/sm8250-common/BoardConfigCommon.mk
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/samsung/c2q/BoardConfigVendor.mk
