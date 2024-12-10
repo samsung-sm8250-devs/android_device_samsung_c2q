@@ -17,5 +17,8 @@
 # Inherit from sm8250-common
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_c2q)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/samsung/c2q/c2q-vendor.mk)
