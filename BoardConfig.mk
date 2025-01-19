@@ -26,6 +26,9 @@ BOARD_SUPER_PARTITION_SIZE := 11156848640
 # Inherit from sm8250-common
 include device/samsung/sm8250-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/samsung/c2q.config
 BOARD_NAME := FRPTD09B014
