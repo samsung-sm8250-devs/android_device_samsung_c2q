@@ -208,8 +208,8 @@ vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 # NFC (firmware)
 vendor/firmware/nfc/libsn100u_fw.so
 
-# RIL-SEC
-vendor/lib64/libsec_semRil.so
+# RIL-SEC - from dm2qxxx-user 14 UP1A.231005.007 S9160ZHS5CYA1 release-keys
+vendor/lib64/libsec_semRil.so|c59b00a3bb037df8f12cd4c5531ab41246e0130a
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.1-service
