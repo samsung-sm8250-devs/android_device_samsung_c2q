@@ -210,6 +210,7 @@ vendor/firmware/nfc/libsn100u_fw.so
 
 # RIL-SEC - from dm2qxxx-user 14 UP1A.231005.007 S9160ZHS5CYA1 release-keys
 vendor/lib64/libsec_semRil.so|c59b00a3bb037df8f12cd4c5531ab41246e0130a
+vendor/lib64/libsecril-client.so|1614f75c6a98e1a4b3ca6a757dd6391b2efeb519
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.1-service
