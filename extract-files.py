@@ -6,7 +6,6 @@
 
 from extract_utils.fixups_lib import (
     lib_fixups,
-    lib_fixups_user_type,
 )
 from extract_utils.main import (
     ExtractUtils,
@@ -18,10 +17,6 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 
-
-lib_fixups: lib_fixups_user_type = {
-    **lib_fixups,
-}
 
 module = ExtractUtilsModule(
     'c2q',
