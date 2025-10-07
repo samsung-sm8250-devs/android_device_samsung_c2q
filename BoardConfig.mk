@@ -23,6 +23,10 @@ include device/samsung/sm8250-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG += vendor/samsung/c2q.config
 BOARD_NAME := FRPTD09B014
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := c2q
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
