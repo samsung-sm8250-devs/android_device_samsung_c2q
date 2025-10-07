@@ -19,6 +19,10 @@ DEVICE_PATH := device/samsung/c2q
 # Inherit from sm8250-common
 include device/samsung/sm8250-common/BoardConfigCommon.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/samsung/c2q.config
+BOARD_NAME := FRPTD09B014
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
